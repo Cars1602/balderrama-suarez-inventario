@@ -81,7 +81,7 @@ function FormularioEquipo({ agregarEquipo }) {
             <input
               type="text"
               className="form-control"
-              placeholder="Ej. ThinkPad E14"
+              placeholder=""
               value={nombre}
               onChange={(e) => setNombre(e.target.value)}
             />
